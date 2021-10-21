@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HMTL</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho no seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png"> <!---Obrigatório colocar a imagem de menor tamanho primeiro sempre acrescentar 50 pixel a mais-->
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png"> <!---Carregamento imagem média--->
+        <img src="imagens/foto-g.png" alt="imagem flexível"> <!---Carregando foto grande-->
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos parender a repdoduzir áudios em HTML5.</p>
+    <audio preload='metadata' autoplay controls loop> <!---Loop faz a música ficar recomeçando-->
+        <source src="midia/Simple Plan - Welcome To My Life.mp3"  controls autoplay></source>
+        <!---Formatos de músicas MP3(mpeg) WAV OGG -->
+       
+    </audio>
+</body>
+</html> 

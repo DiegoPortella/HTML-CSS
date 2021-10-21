@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Medieval';
+    src: url('fonte/The\ Centurion.otf') format('opentype'), url('fonte/The\ Centurion\ .ttf') format('truetype');
+
+}
+body {
+    font-family: 'Arial', 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to bottom, black 90%, grey);
+
+}
+h1 {
+    font-family: 'Medieval',Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 3em;
+
+}
+h2 {
+    font-family: 'Medieval',Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+}
+p {
+    font-family: 'Courgette', cursive;
+}

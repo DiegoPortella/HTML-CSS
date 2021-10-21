@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+@font-face {
+    font-family: 'escrita';
+    src: url('fontes/Amarillo.otf') format('opentype'), url('fontes/Amarillo.ttf') format('truetype');
+    font-weight: normal;
+}
+
+:root {
+    --cor0: #999999;
+    --cor1: #4D4D4D;
+    --cor2: #44314D;
+    --cor3: #2E2433;
+    --cor4: #000000;
+
+    --fonte-padrao: arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Ephesis';
+    --fonte-escrita:'escrita';
+}
+
+
+*{  margin: 10px;
+    padding: 10px
+}
+
+body {
+    background-color: white;
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    background-color: var(--cor1);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    
+}
+
+header > h1 {
+    color: pink;
+    font-family: var(--fonte-destaque);
+    font-size: 7em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+header > p {
+    color: white;
+    font-family: var(--fonte-escrita);
+    font-size: 1.5em; 
+    font-weight: normal;
+
+}
+
+nav {
+    background-color: var(--cor2);
+    padding: 10px;
+}
+
+nav > a {
+    color: white;
+    margin: 9px;
+    
+}
+
+nav >a:hover {
+    background-color: var(--cor1);
+    color: var(--cor2);
+}
+
+main {
+    background-color: var(--cor1);
+    margin-bottom: 10px;
+}
+
+main  h1 {
+    background-color: var(--cor2);
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    text-shadow: 2px 2px 2px black;
+    margin: -10px;
+    font-weight: normal;
+}
+
+main h2 {
+    background-color: var(--cor2);
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    text-shadow: 2px 2px 2px black;
+    margin: -10px;
+    font-weight: normal;
+}
+
+main h3 {
+    background-color: var(--cor2);
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    text-shadow: 2px 2px 2px black;
+    margin: -10px;
+    padding-top: 20px;
+}
+
+main p {
+    font-family: var(--fonte-escrita);
+    color: white;
+    font-size: 1.5em; /*font-size = tamanho da fonte*/
+    text-align: justify;
+    margin: 20px 0px;
+    text-indent: 30px; /**text-indent = parágrafo*/
+    line-height: 2em; /**espeço entras as letras*/
+}
+
+article{
+    margin: -10px;
+}
+
+main img{
+    margin: -40px;
+}
+
+picture{
+    margin: -40px;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    font-size: 3em;
+}
+    
+
+div.video {
+    background-color: var(--cor2);
+    padding: 20px;
+    margin: :0px -2px 30px -2px;
+    position: relative;
+}
+
+
+footer {
+    color: white;
+    background-color: var(--cor2);
+    text-align: center;
+}
+
+
+
+
